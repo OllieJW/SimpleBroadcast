@@ -1,0 +1,34 @@
+name: BetterBroadcast
+version: ${project.version}
+main: com.olliejw.betterbroadcast.BetterBroadcast
+api-version: 1.16
+authors: [ OllieJW ]
+description: A simple, customisable broadcast command
+website: mc.eutora.com
+
+commands:
+  broadcast:
+    description: Send a message to everyone
+    usage: /<command>
+    aliases:
+      - bb
+      - bbroadcast
+      - bsend
+      - betterbroadcast
+    permission: betterbroadcast.use
+    permission-message: §cYou don't have permission to use this
+    permissions:
+      betterbroadcast.use:
+        default: op
+  bbreload:
+    description: Reload config
+    usage: /<command>
+    aliases:
+      - bbr
+      - bbreload
+      - betterbroadcastreload
+    permission: betterbroadcast.use
+    permission-message: §cYou don't have permission to use this
+    permissions:
+      betterbroadcast.use:
+        default: op

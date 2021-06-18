@@ -1,0 +1,24 @@
+# --- Better Broadcast ---
+# SPIGOT: https://www.spigotmc.org/resources/elytraboost.91918/
+# DISCORD: https://discord.gg/tFhTcQ6yMn
+
+# Prefix before broadcast
+# Use a color code after to change message color
+# Here we use &f to make the rest of the message white
+ShowPrefix: true
+Prefix: '&f[&cBroadcast&f] &f'
+
+# Suffix after broadcast
+# %sender% - player that did command
+ShowSuffix: true
+Suffix: '&7(Admin Team) &f-%sender%'
+
+# Error if you don't include any arguments
+ErrorMessage: '&cYou need to include a message!'
+ReloadMessage: '&aSuccessfully reloaded the config!'
+
+# What should console be called. Default: CONSOLE
+ConsoleName: 'Server Console'
+
+# Permissions
+ReloadPerm: 'bb.Admin'
